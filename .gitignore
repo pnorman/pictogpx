@@ -26,3 +26,9 @@ nosetests.xml
 
 #Mr Developer
 .mr.developer.cfg
+
+# Images
+*.jpg
+*.JPG
+*.jpeg
+*.JPEG
