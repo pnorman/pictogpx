@@ -1,1 +1,10 @@
-A program that will create a gpx track from geotagged images
+Pictogpx is a python program that will create a GPX track from geotagged images
+
+Dependencies: gpxpy, pyexiv2, python
+To install these on a ubuntu 11.10 machine do `sudo apt-get install python-pyexiv2` and `sudo easy_install gpxpy`
+
+Usage:
+
+./pictogpx.py [-t TIME] trip.gpx photos/*.jpg
+
+A GPX track will be created, with breaks whenever there are more than TIME minutes between pictures.
