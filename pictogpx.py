@@ -91,7 +91,7 @@ if __name__ == "__main__":
     '''
     trackpoints = []
     lasttime = None
-    gpx_track=gpxpy.gpx.GPXTrack('foo','bar')
+    gpx_track=gpxpy.gpx.GPXTrack()
     
     for point in sorted(points, key=itemgetter(2, 3)):
     
